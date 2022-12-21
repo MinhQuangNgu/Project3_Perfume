@@ -106,7 +106,10 @@ io.on("connection", (socket) => {
 });
 
 mongoose
-    .connect(process.env.DATABASE_URL, { useNewUrLParser: true })
+    .connect(
+        "mongodb+srv://quangminhnguyen:quangminhnguyen@cluster0.6bzc3ia.mongodb.net/?retryWrites=true&w=majority",
+        { useNewUrLParser: true }
+    )
     .then(() => console.log("Connected to database"))
     .catch((err) => console.log(`Your erorr :${err}`));
 
