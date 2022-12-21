@@ -342,7 +342,7 @@ class userController {
     }
 }
 function createAccessToken(user) {
-    return jwt.sign({ id: user._id }, process.env.ACCESSTOKEN, {
+    return jwt.sign({ id: user._id }, "asdsadasukdnbqwkjhdwkahdwukhkwahdw", {
         expiresIn: "3d",
     });
 }
