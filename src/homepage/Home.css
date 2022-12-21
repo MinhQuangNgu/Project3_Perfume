@@ -1,0 +1,51 @@
+.home-container{
+    margin-top: 2rem;
+}
+.home-categary-image{
+    width: 100%;
+    height: 46rem;
+}
+.home-kind-nam{
+    height: 22rem;
+    width: 100%;
+    background-image: url("https://res.cloudinary.com/dqbrxkux1/image/upload/v1650549991/Avatar/ln3s2kl5jxxstcycgedi.jpg");
+    background-size: 100%;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-kind-nu{
+    margin-top: 2rem;
+    height: 22rem;
+    width: 100%;
+    background-image: url("https://res.cloudinary.com/dqbrxkux1/image/upload/v1650549995/Avatar/htye909139npz1o0nnkf.jpg");
+    background-size: 100%;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-kind-nam-link{
+    height: 3.5rem;
+    max-width: 100%;
+    padding:0 1rem;
+    font-size: 1.5rem;
+    background-color: white;
+    border:0.1rem solid black;
+}
+.Link-kind-nam{
+    width:  100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+@media only screen and (max-width:739px){
+    .home-kind-nam{
+        margin-top: 2rem;
+    }
+}

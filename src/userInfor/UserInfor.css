@@ -1,0 +1,492 @@
+.user-infor-detail-container{
+    margin-top: 4rem;
+    width: 100%;
+    min-height: 20rem;
+}
+.user-infor-detail{
+    width: 100%;
+    min-height: 15rem;
+    border:0.1rem solid #333;
+    display: flex;
+    align-items: center;
+    padding:1rem;
+    position: relative;
+    margin-bottom: 3rem;
+}
+.user-infor-detail-img-container{
+    width: 20%;
+    position: relative;
+    overflow: hidden;
+}
+.user-infor-detail-img-container > img{
+    width: 100%;
+}
+.user-infor-detail-infor-container{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+}
+.user-infor-detail-infor-container > span{
+    width: 100%;
+    margin:0.8rem 0;
+    margin-left: 2rem;
+}
+.user-infor-detail-infor-container > span:first-child{
+    font-weight: 800;
+    font-size: 1.7rem;
+}
+.user-infor-detail-edit{
+    position: absolute;
+    top:1rem;
+    right:1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 0.1rem solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.user-infor-detail-edit-container{
+    position: absolute;
+    top:0;
+    right:0;
+    left:20%;
+    bottom:0;
+    background-color: white;
+}
+.user-infor-detail-edit-container{
+    width: 80%;
+    padding-left: 1rem;
+}
+.user-infor-detail-edit-name{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 35%;
+}
+.user-infor-detail-edit-name > label{
+    font-size: 1.7rem;
+    font-weight: 700;
+    width: 15%;
+
+}
+.user-infor-detail-edit-name > input{
+    width: 80%;
+    height: 70%;
+    padding-left: 1rem;
+    outline: none;
+    font-size: 1.5srem;
+}
+.user-infor-detail-edit-adress{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 40%;
+}
+.user-infor-detail-edit-adress > label{
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 15%;
+}
+.user-infor-detail-edit-adress > input{
+    width: 80%;
+    height: 3rem;
+    padding-left: 1rem;
+    outline: none;
+    font-size: 1.5rem;
+    height: 70%;
+}
+.user-infor-detail-edit-button{
+    width: 95%;
+    display: flex;
+    justify-content: flex-end;
+    height: 20%;
+}
+.user-infor-detail-edit-button > button{
+    width: 7rem;
+    height: 3rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.user-infor-detail-edit-button > button:last-child{
+    margin-left: 1rem;
+    color:white;
+    background-color: rgba(0,0,0,0.5);
+}
+.user-infor-detail-edit-button > button:first-child{
+    background-color: green;
+    color:white;
+}
+.user-infor-detail-edit-button > button:hover{
+    transform: scale(1.1);
+}
+@media only screen and (max-width:349px){
+    .user-infor-detail{
+        min-height: 19rem;
+    }
+}
+.user-infor-detail-edit-form{
+    position: absolute;
+    top:4rem;
+    right:-1.5rem;
+    width: 8rem;
+    height: 3rem;
+    box-shadow: 0 0 1rem 0.5rem #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    font-size: 1.5rem;
+    font-weight: 800;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.user-infor-detail-change-avatar{
+    position: absolute;
+    top:40%;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:rgba(0,0,0,0.5);
+    transform: translateY(100%);
+    transition: all ease 0.3s;
+}
+.change-avatar-label{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-size: 1.5rem;
+    font-weight: 800;
+    cursor: pointer;
+}
+.user-infor-detail-img-container:hover .user-infor-detail-change-avatar{
+    transform: translateY(0%);
+}
+.user-infor-buy-image{
+    width: 20%;
+}
+.user-infor-buy-image > img{
+    width: 100%;
+}
+.user-infor-buy-detail{
+    width: 80%;
+    padding-left: 1rem;
+}
+.user-infor-buy-detail-title{
+    width: 100%;
+    margin-bottom: 2rem;
+    font-size: 1.7rem;
+    font-weight: 800;
+}
+.user-infor-buy-detail-status{
+    width: 100%;
+    display: flex;
+    margin-top: 1rem;
+}
+.user-infor-buy-detail-status-number{
+    margin-right: 1rem;
+    padding:0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.6rem;
+    background-color: rgba(255,0,0,0.9);
+    font-size: 0.8rem;
+    color:white;
+    font-weight: 800;
+}
+.user-infor-buy-detail-kind{
+    margin-top: 1rem;
+    width: 100%;
+    font-size: 1.3rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+}
+.user-infor-buy-detail-kind-1{
+    margin-top: 1rem;
+    width: 100%;
+    font-size: 1.3rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 17%;
+    color:green;
+}
+.user-infor-buy-detail-price{
+    margin-top: 1rem;
+    width: 100%;
+    font-size: 2rem;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+}
+.foot-price{
+    font-size: 1.5rem;
+    color:black;
+    text-decoration: line-through;
+    margin-right: 1.5rem;
+}
+.reduce-price{
+    color:red;
+    margin-right: 2rem;
+}
+.percent-price{
+    height: 1.7rem;
+    font-size: 1.2rem;
+    display: flex;
+    background-color: rgba(255,0,0,0.9);
+    padding:0 0.5rem;
+    color:white;
+    border-radius: 0.3rem;
+}
+.user-infor-buy-detail-price-number{
+    width: 100%;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color:green;
+}
+.user-infor-buy-detail-select{
+    margin-left: 1rem;
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    outline: none;
+}
+.user-infor-cart{
+    width: 100%;
+    min-height: 15rem;
+    border:0.1rem solid #333;
+    border-radius: 2rem;
+    margin-bottom: 4rem;
+    display: flex;
+    padding:1rem;
+    align-items: center;
+    position: relative;
+}
+
+.user-infor-buy-cart{
+    width: 100%;
+    min-height: 10rem;
+    border:0.1rem solid #333;
+    border-radius: 2rem;
+    margin-bottom: 4rem;
+    padding:1rem;
+}
+.user-infor-buy-cart-detail{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    align-items: center;
+    font-weight: 600;
+}
+.user-infor-buy-cart-detail-title{
+    width:60%;
+}
+.user-number{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    color: green;
+}
+.user-infor-buy-cart-detail span:last-child{
+    width: 20%;
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-end;
+    color:green;
+}
+.user-infor-total-price-container{
+    width: 100%;
+    margin-top: 10rem;
+    border-top: 0.1rem solid #333;
+    min-height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.9rem;
+    padding-top:1rem;
+    color:red;
+}
+.user-infor-cancel-detail{
+    position: absolute;
+    top:1rem;
+    right:1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    border: 0.1rem solid #333;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: white;
+}
+.user-delete-cart{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left:0;
+    background-color: rgba(0,0,0,0.05);
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user-delete-container{
+    width: 40%;
+    background-color: white;
+    box-shadow: 0 0 1rem 0.2rem #333;
+    padding:1rem;
+    border-radius: 1rem;
+}
+.user-delete-icon{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 1.8rem;
+}
+.user-infor-delete-cancel{
+    width: 3rem;
+    height: 3rem;
+    border:0.1rem solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: white;
+}
+.user-delete-confir-ask{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    padding:0 2rem;
+}
+.user-delete-confir-button{
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3rem;
+}
+.user-delete-confir-button > button{
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.5rem;
+}
+.user-delete-confir-button > button:first-child{
+    margin-right: 2rem;
+    background-color: red;
+    color:white;
+    cursor: pointer;
+}
+.user-delete-confir-button > button:last-child{
+    background-color: rgba(0,0,0,0.4);
+    color:white;
+    cursor: pointer;
+}
+.user-delete-confir-button > button:hover{
+    transform: scale(1.1);
+}
+.user-infor-detail-price-old-price{
+    width: 100%;
+    font-size: 1.7rem;
+    margin-top: 1rem;
+    font-weight: 800;
+}
+@media only screen and (max-width:739px){
+    .user-infor-buy-detail-price{
+        font-size: 1.5rem;
+    }
+    .foot-price{
+        font-size: 1.3rem;
+    }
+}
+.delete-all-cart{
+    width: 100%;
+    min-height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.trigger-delete-cart{
+    position: fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color: rgba(0,0,0,0.2);
+    z-index: 8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.trigger-delete-cart-container{
+    width: 30%;
+    min-height: 4rem;
+    background-color: white;
+    padding:1rem;
+    border:0.1rem solid #333;
+}
+.trigger-delete-times{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 2rem;
+}
+.trigger-delete-times-container{
+    width: 2.5rem;
+    height: 2.5rem;
+    border:0.1rem solid #333;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.trigger-delete-cart-all-container{
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    padding:0 1rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.trigger-delete-cart-button{
+    padding:0 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.trigger-delete-cart-button > button{
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+.trigger-delete-cart-button > button:hover{
+    transform: scale(1.1);
+}
+.trigger-delete-cart-button > button:first-child{
+    margin-right: 1.5rem;
+    background-color: red;
+    color:white;
+}

@@ -1,0 +1,21 @@
+.home-brand_container-detail{
+    width: 100%;
+}
+.home-brand_container-detail img{
+    width: 100%;
+    height: 10rem;
+    border:0.1rem solid #333;
+    margin-bottom: 2rem;
+}
+@media only screen and (max-width:739px){
+    .brandflower-detail{
+        width: 100%;
+        margin-top: 2rem;
+        padding:0 3rem;
+    }
+}
+@media only screen and (min-width:400px) and (max-width:739px){
+    .home-brand_container-detail img{
+        height: 15rem;
+    }
+}

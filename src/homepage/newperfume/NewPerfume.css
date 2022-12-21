@@ -1,0 +1,71 @@
+.home-newperfume{
+    width: 100%;
+    margin-top: 6rem;
+}
+.home-newperfume-container{
+    width: 100%;
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-between;
+}
+.home-newperfume-container > b{
+    height: 0.1rem;
+    background-color:black;
+    flex:1;
+    margin-top: 2rem;
+}
+.home-newperfume-container > span{
+    text-align: center;
+    padding:0 1rem;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: 500;
+}
+.home-perfume-card-container{
+    width: 100%;
+    margin-top: 2rem;
+}
+.home-brand-card-container{
+    width: 100%;
+    margin-top: 2rem;
+}
+@media only screen and (max-width:739px){
+    .home-perfume-card-container{
+        padding:0 2rem;
+    }
+    .home-brand-card-container{
+        padding:0 2rem;
+    }
+}
+.home-commit-detail{
+    width:  100%;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+@media only screen and (max-width:739px){
+    .home-commit-detail{
+        width:  100%;
+        font-size: 2rem;
+        text-align: justify;
+        padding:0 2rem;
+    }
+}
+.home-card-container-create{
+    width: 100%;
+    height: 34.5rem;
+    border:0.1rem solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-create-link{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color:black;
+    font-size: 1.5rem;
+    font-weight: 800;
+}

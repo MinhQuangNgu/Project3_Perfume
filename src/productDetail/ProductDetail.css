@@ -1,0 +1,451 @@
+.product-detail-container{
+    width: 100%;
+    margin-top: 2rem;
+}
+.product-detail-title{
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.card_detail-infor{
+    width: 100%;
+    margin-top: 1rem;
+    padding:1rem;
+    background-color: rgba(0,0,0,0.2);
+}
+.image_detail-container{
+    width: 100%;
+    padding:0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image_detail-container > img{
+    width: 80%;
+    max-width: 90%;
+    min-height: 30rem;
+}
+.flower-water-detail{
+    width: 100%;
+    padding:1rem 0;
+}
+.name-flower-water-detail{
+    width: 100%;
+    font-size: 2.5rem;
+    font-weight: 800;
+    position: relative;
+}
+.natural{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+.natural > span{
+    margin-right: 3rem;
+}
+.reducer_price{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+.root-price{
+    font-size: 1.8rem;
+    margin-right: 1rem;
+    text-decoration: line-through;
+    color:rgba(0,0,0,0.4);
+}
+.new-price{
+    font-size: 2.5rem;
+    margin-right: 2rem;
+    color:red;
+}
+.percent{
+    width: auto;
+    height: 2.5rem;
+    background-color: rgba(255,0,0,0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0 1rem;
+    font-size: 1.3rem;
+    color:white;
+    border-radius: 0.5rem;
+}
+.year-born{
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+}
+.gender{
+    margin-top: 1.3rem;
+    font-size: 1.5rem;
+}
+.the-tich{
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: green;
+}
+.contact-admin{
+    width: 14rem;
+    height: 5rem;
+    margin-top: 2rem;
+    background-color: #EE4D2D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.contac-admin-button{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    text-decoration: none;
+}
+.more-detail-navbar{
+    margin-top: 2rem;
+    width: 100%;
+    background-color: rgba(0,0,0,0.2);
+}
+.more-detail-detail-navbar{
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+    margin-top: 2rem;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    color:white;
+    font-weight: 800;
+    padding:2rem;
+}
+.more-detail-detail-infor{
+    width: 100%;
+    padding:1rem;
+}
+.more-detail-detail-infor > ul{
+    padding-left: 0;
+    list-style: none;
+}
+.more-detail-detail-infor >  ul > li{
+    font-size: 1.5rem;
+    margin:2rem 0;
+}
+.more-detail-detail-infor >  ul > li > span{
+    color:rgba(0,0,0,0.6);
+}
+.more-detail-detail-description{
+    width: 100%;
+    padding:1rem;
+    font-size: 1.4rem;
+    text-align: justify;
+    line-height: 2.4rem;
+}
+.more-detail-detail-working{
+    width: 100%;
+    padding:1rem;
+    font-size: 1.4rem;
+    text-align: justify;
+    line-height: 2.4rem;
+
+}
+
+.comment-form-container{
+    width: 100%;
+    background-color: rgba(0,0,0,0.2);
+    margin-top: 2rem;
+    padding:2rem;
+}
+.comment-form-user-avatar{
+    width: 100%;
+}
+.comment-form-user-avatar > img{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    border:0.1rem solid #333;
+}
+.comment-form-user-name > input{
+    width: 20rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    outline: none;
+    margin-bottom: 1rem;
+}
+.comment-form-user-content{
+    width: 100%;
+    position: relative;
+}
+.comment-form-user-content > textarea{
+    width: 100%;
+    resize: vertical;
+    font-size: 1.5rem;
+    outline: none;
+    min-height: 7rem;
+    padding:0.5rem;
+}
+.comment-form-user-button{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.comment-form-user-button > button{
+    width: 80%;
+    height: 4rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    outline: none;
+    background-color: green;
+    color:white;
+    cursor: pointer;
+}
+.comment-form-user-button > button:hover{
+    background-color: black;
+}
+.comment-infor-user-container{
+    width: 100%;
+    margin-top: 4rem;
+}
+.infor-comment-detail-container{
+    width: 100%;
+    margin-bottom: 5rem;
+    position: relative;
+}
+.infor-comment-detail-user-avatar > img{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    border: 0.1rem solid #333;
+    margin-top: 0.5rem;
+}
+.infor-comment-detail-user-name{
+    color:blue;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+}
+.infor-comment-detail-user-content > p{
+    margin:0;
+}
+.infor-comment-detail-user-content{
+    width: 100%;
+    background-color: white;
+    min-height: 4rem;
+    padding:1rem;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    text-align: justify;
+    position: relative;
+}
+.no-reduce-price{
+    font-size: 2rem;
+    margin-top: 2rem;
+    font-weight: 800;
+}
+.perfume-hot{
+    height: 2rem;
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255,0,0,0.7);
+    color:white;
+    font-size: 1.3rem;
+}
+.hot-best-sell-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+.perfume-best-sell{
+    width: 10rem;
+    height: 2rem;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255,0,0,0.7);
+    color:white;
+    margin-left: 1rem;
+}
+.perfume-sale{
+    width: 5rem;
+    height: 2rem;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255,0,0,0.7);
+    color:white;
+    margin-left: 1rem;
+}
+@media only screen and (max-width:1023px){
+    .flower-water-detail{
+        text-align: center;
+    }
+    .contact-admin{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .natural{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .hot-best-sell-container{
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+    .reducer_price{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width:330px){
+    .natural span:last-child{
+        margin-top: 1.5rem;
+    }
+}
+.not-user{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.infor-comment-detail-user-like-reply{
+    position: absolute;
+    top:100%;
+    left:1rem;
+    margin-top: 0.5rem;
+}
+.infor-link-active{
+    font-size: 1.3rem;
+    margin-right: 2rem;
+    font-weight: 700;
+}
+.facebook-icon-active-click:active{
+    transform: scale(1.5);
+}
+.comment-infor-do-more{
+    position: absolute;
+    top:1rem;
+    right:1rem;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:0.1rem solid #333;
+    border-radius: 50%;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+.comment-infor-do-form{
+    position: absolute;
+    top:4rem;
+    right:-1rem;
+    width: 10rem;
+    box-shadow:0 0 1rem 0.5rem #333;
+    background-color: white;
+    border-radius: 1rem;
+}
+.comment-infor-do-infor{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-bottom: 0.1rem solid #333;
+    cursor: pointer;
+}
+.comment-infor-do-infor:hover{
+    font-size: 2rem;
+}
+.change-content-container{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    background-color: white;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    padding:0.5rem;
+}
+.change-content-container > textarea{
+    width: 100%;
+    min-height: 2rem;
+    outline: none;
+    border:none;
+}
+.change-content-container > button{
+    width: 10%;
+    height: 3rem;
+    margin-top: 0.5rem;
+    background-color: green;
+    color:white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.change-content-container > button:hover{
+    background-color: black;
+}
+#change-content-cancel{
+    width: 7%;
+    margin-left: 1rem;
+    background-color: gray;
+    color:white;
+}
+.add-to-cart-container{
+    width: 100%;
+    display: flex;  
+    margin-top: 3rem;
+}
+.button-add-to-cart{
+    min-width: 30%;
+    height: 4rem;
+    margin-right: 2rem;
+}
+.button-add-to-cart > button{
+    width: 100%;
+    height: 100%;
+    background-color: green;
+    color:white;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.button-add-to-cart > button:active{
+    transform: scale(1.1);
+}
+.contact-to-user{
+    width: 20%;
+    height: 4rem;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color:white;
+    outline: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+.contact-to-user:active{
+    transform: scale(1.1);
+}
+.infor-link-active.activethumbs{
+    color:blue;
+}
